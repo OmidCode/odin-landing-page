@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #1f2937;
+    padding: 15px 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    justify-content:flex-end;
+    gap: 16px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    height: 100%;
+    width: 75px;
+    border-radius: 100%;
+}
