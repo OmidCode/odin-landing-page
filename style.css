@@ -2,12 +2,15 @@ body {
     margin: 0;
 }
 
+a:hover {
+    color: rgb(255, 166, 0)
+}
 
 /**Navbar section**/
 
 header {
     background-color: #1f2937;
-    padding: 15px 15%;
+    padding: 15px 20% 45px 20%;
     display: flex;
     justify-content: space-between;
     align-items: center;
