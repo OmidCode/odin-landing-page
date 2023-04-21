@@ -2,11 +2,15 @@ body {
     margin: 0;
 }
 
+
+/**Navbar section**/
+
 header {
     background-color: #1f2937;
     padding: 15px 15%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-links {
@@ -22,6 +26,61 @@ header {
 
 .logo {
     height: 100%;
-    width: 75px;
+    width: 64px;
     border-radius: 100%;
+    margin-right: 24px;
+}
+
+/**Hero section**/
+
+.hero {
+    background-color:#1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    gap: 8px ;
+}
+
+h1 {
+    margin: 0;
+    padding-right: 64px;
+    color: #F9FAF8;
+    font: 48px;
+    font-weight: 800;
+}
+
+.hero-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 450px;
+
+}
+
+.hero-img {
+    margin-left: 24px;
+}
+
+img {
+    height: 225px;
+    width: 450px;
+    object-fit: cover;
+}
+
+.hero-btn {
+    border-radius: 6px;
+    background-color: #3882F6;
+    width: fit-content;
+    padding: 4px 24px 4px 24px;
+    margin-right: auto;
+}
+
+.contact-btn {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
 }
