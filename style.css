@@ -66,11 +66,15 @@ h1 {
 
 .hero-img {
     margin-left: 24px;
+    height: 225px;
+    width: 450px;
 }
 
 img {
-    height: 225px;
-    width: 450px;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: cover;
 }
 
@@ -93,7 +97,7 @@ img {
 h2 {
     font-size: 36px;
     font-weight: 800;
-    color: #F9FAF8;
+    color: #1f2937;
 }
 
 .info-section {
@@ -125,7 +129,12 @@ h2 {
     align-items: center;
     border-radius: 10px;
     border: solid 2px #3882F6;
-    padding: 70px;
+    height: 144px;
+    width: 144px;
+}
+
+.info-img > img {
+    border-radius: 8px;
 }
 
 .info-subtxt {
