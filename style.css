@@ -12,7 +12,7 @@ header {
     background-color: #1f2937;
     padding: 25px 35px 100px 35px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
