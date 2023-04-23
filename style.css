@@ -10,7 +10,7 @@ a:hover {
 
 header {
     background-color: #1f2937;
-    padding: 15px 20% 45px 20%;
+    padding: 15px 24% 75px 24%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +19,7 @@ header {
 .nav-links {
     display: flex;
     justify-content:flex-end;
-    gap: 16px;
+    gap: 20px;
 }
 
 .nav-link {
@@ -66,8 +66,8 @@ h1 {
 
 .hero-img {
     margin-left: 24px;
-    height: 225px;
-    width: 450px;
+    height: 250px;
+    width: 500px;
 }
 
 img {
@@ -82,7 +82,7 @@ img {
     border-radius: 6px;
     background-color: #3882F6;
     width: fit-content;
-    padding: 4px 24px 4px 24px;
+    padding: 5px 30px 5px 30px;
     margin-right: auto;
 }
 
@@ -106,13 +106,15 @@ h2 {
     align-items: center;
     flex-direction: column;
     margin-bottom: 150px;
+    margin-top: 15px;
 }
 
 .info-container {
  display: flex;
  justify-content: center;
  align-items: center;
- gap: 50px;
+ gap: 20px;
+ margin-top: 22px;
 }
 
 .info-card {
@@ -120,7 +122,7 @@ h2 {
     justify-content: center;
     align-items: center; 
     flex-direction: column;  
-    width: 150px;
+    width: 200px;
 }
 
 .info-img {
@@ -129,8 +131,8 @@ h2 {
     align-items: center;
     border-radius: 10px;
     border: solid 3px #3882F6;
-    height: 144px;
-    width: 144px;
+    height: 180px;
+    width: 180px;
 }
 
 .info-img > img {
@@ -141,6 +143,7 @@ h2 {
     text-align: center;
     margin: 4px;
 }
+
 
 /**Quote section**/
 
@@ -153,15 +156,25 @@ h2 {
 }
 
 #quote-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #1f2937;
     font-size: 36px;
-    font-weight: lighter;
+    font-weight:lighter;
     font-family: italic;
+    width: 775px;
+    margin-bottom: 0;
+    margin-top: 150px;
 }
 
 #author {
+    position: relative;
+    left: 240px;
     color: #1f2937;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bold;
     font-family: italic;
+    margin-top: 0;
+    margin-bottom: 100px;
 }
