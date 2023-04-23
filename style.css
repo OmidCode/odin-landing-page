@@ -98,7 +98,7 @@ h2 {
     color: #1f2937;
 }
 
-.info-section {
+#info-section {
     display: flex;
     justify-content: center;
     align-items: center;
