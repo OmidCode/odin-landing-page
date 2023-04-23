@@ -229,3 +229,14 @@ h3 {
 .contact-btn2:hover {
     border-color: orange;
 }
+
+/**Footer Copyright**/
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #F9FAF8;
+    background-color: #1f2937;
+    padding: 30px;
+}
