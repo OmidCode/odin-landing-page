@@ -78,12 +78,11 @@ img {
     object-fit: cover;
 }
 
-.hero-btn {
+.contact-btn {
     border-radius: 6px;
     background-color: #3882F6;
-    width: fit-content;
     padding: 5px 30px 5px 30px;
-    margin-right: auto;
+    margin-right: 330px;
 }
 
 .contact-btn {
@@ -130,22 +129,33 @@ h2 {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    border: solid 3px #3882F6;
+    border: solid 4px #3882F6;
     height: 180px;
     width: 180px;
 }
 
+.card-title {
+    max-height: 36px;
+}
+
+.card-txt {
+    display: inline-flex;
+    text-align: center;
+    width: 160px;
+    height: auto;
+
+}
+
 .info-img > img {
-    border-radius: 7px;
+    border-radius: 6px;
 }
 
 .info-subtxt {
     text-align: center;
     margin: 5px;
     width: 200px;
-    height: 200px;
+    height: 300px;
 }
-
 
 /**Quote section**/
 
@@ -180,4 +190,42 @@ h2 {
     font-family: italic;
     margin-top: 0;
     margin-bottom: 100px;
+} 
+
+/**Contact Section **/
+
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px auto;
+    border-radius: 5px;
+    padding: 50px 0;
+    width: 50%;
+    background-color: #3882F6;
+}
+
+.contact-txt {
+    color: #F9FAF8;
+}
+
+h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#contact-subtitle {
+    font-size: 15px;
+}
+
+.contact-btn2 {
+    text-decoration: none;
+    color: #F9FAF8;
+    border: solid 2px #F9FAF8;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+.contact-btn2:hover {
+    border-color: orange;
 }
