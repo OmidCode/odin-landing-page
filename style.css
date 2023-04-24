@@ -11,14 +11,11 @@ a:hover {
 header {
     background-color: #1f2937;
     padding: 30px 50px 100px 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
 }
 
 .header-container {
     display: flex;
+    flex-direction: column;
     width: 100%;
     min-width: 100%;
     background-color: #1f2937;
@@ -28,6 +25,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-self: center;
     width: 980px;
     padding-bottom: 50px;
 }
